@@ -27,7 +27,6 @@ public class Main {
             );
         }
 
-        // Last Name
         while (true) {
             System.out.print("Enter Last Name: ");
             lastName = scanner.nextLine();
@@ -54,7 +53,6 @@ public class Main {
             );
         }
 
-        // Password
         while (true) {
             System.out.print("Enter Password: ");
             regPassword = scanner.nextLine();
