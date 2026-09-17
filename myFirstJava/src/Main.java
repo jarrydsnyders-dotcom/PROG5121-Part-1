@@ -22,9 +22,7 @@ public class Main {
                 break;
             }
 
-            System.out.println(
-                    "Invalid First Name. Must start with a capital letter and contain only letters."
-            );
+            System.out.println("Invalid First Name. Must start with a capital letter and contain only letters.");
         }
 
         while (true) {
@@ -35,9 +33,7 @@ public class Main {
                 break;
             }
 
-            System.out.println(
-                    "Invalid Last Name. Must start with a capital letter and contain only letters."
-            );
+            System.out.println("Invalid Last Name. Must start with a capital letter and contain only letters.");
         }
 
         while (true) {
@@ -48,9 +44,7 @@ public class Main {
                 break;
             }
 
-            System.out.println(
-                    "Invalid Username. Must be maximum 10 characters and contain no spaces."
-            );
+            System.out.println("Invalid Username. Must be maximum 10 characters and contain no spaces.");
         }
 
         while (true) {
@@ -64,13 +58,10 @@ public class Main {
                 break;
             }
 
-            System.out.println(
-                    "Invalid Password. Must be at least 6 characters " +
-                            "and contain both uppercase and lowercase letters."
-            );
+            System.out.println("Invalid Password. Must be at least 6 characters " +"and contain both uppercase and lowercase letters.");
         }
 
-        System.out.println("\nRegistration successful!\n");
+        System.out.println("Registration successful!");
 
         while (true) {
             System.out.print("Enter Login Username: ");
@@ -84,9 +75,7 @@ public class Main {
                 break;
             }
 
-            System.out.println(
-                    "Incorrect username or password. Please try again.\n"
-            );
+            System.out.println("Incorrect username or password. Please try again.");
         }
 
         System.out.println("Welcome " + firstName + " " + lastName + "!");
